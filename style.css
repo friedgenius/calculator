@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poiret+One&family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #FDFCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    background-color: #0081A7;
+    border-radius: 10px;
+    font-family: 'Poiret One', cursive;
+    gap: 5px;
+}
+.display {
+    background-color: white;
+    max-width: 395px;
+    width: 395px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 70px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+.key {
+    width: 95px;
+    border-radius: 10px;
+    height: 95px;
+    background-color: #FED9B7;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 30px;
+    transition: all .1s ease;
+}
+
+.key.zero {
+    width: 195px;
+    height: 95px;
+    
+}
+
+.op {
+    background-color: #F07167;
+}
+
+.top {
+    background-color: #58d3ff;
+}
+.clicked {
+    font-size: 50px;
+}
